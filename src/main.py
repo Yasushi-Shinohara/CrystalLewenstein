@@ -5,6 +5,8 @@
 import time
 ts = time.time()
 from modules.print_funcs import print_header, print_footer, print_midtime, print_endtime
+from modules.functions import *
+from modules.parameters import parameter_class
 print_header()
 import sys
 import numpy as np
